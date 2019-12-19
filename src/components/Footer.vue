@@ -1,5 +1,5 @@
 <template>
-    <v-footer dark padless absolute>
+    <v-toolbar dark padless absolute>
     <v-card flat tile class="indigo lighten-1 white--text text-center flex">
   
 
@@ -22,7 +22,7 @@
         {{ new Date().getFullYear() }} — <strong>Jasper Beachy</strong>
       </v-card-text>
     </v-card>
-  </v-footer>
+    </v-toolbar>
 </template>
 
 
