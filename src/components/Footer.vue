@@ -2,9 +2,7 @@
     <v-footer dark padless absolute>
     <v-card flat tile class="indigo lighten-1 white--text text-center flex">
   
-     <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Jasper Beachy</strong>
-      </v-card-text>
+
     <v-card-text>
 
         <v-btn fab class="mx-4" href="https://www.linkedin.com/in/jasperbeachy/" target="_blank"><v-icon>mdi-linkedin</v-icon></v-btn>
@@ -18,9 +16,11 @@
    
 
     </v-card-text>
-       
+      <v-divider></v-divider>
 
-     
+      <v-card-text class="white--text">
+        {{ new Date().getFullYear() }} — <strong>Jasper Beachy</strong>
+      </v-card-text>
     </v-card>
   </v-footer>
 </template>
