@@ -1,9 +1,9 @@
 <template>
-    <v-footer dark padless absolute>
-    <v-card flat tile class="indigo lighten-1 white--text text-center flex">
+    <v-container dark padless absolute flat tile fluid class="indigo lighten-1 white--text text-center" style="margin: 0px; padding: 0px; width: 100%">
+    
   
-
-    <v-card-text>
+      <v-card>
+    
 
         <v-btn fab class="mx-4" href="https://www.linkedin.com/in/jasperbeachy/" target="_blank"><v-icon>mdi-linkedin</v-icon></v-btn>
         <v-btn fab class="mx-4"><v-icon>mdi-phone</v-icon></v-btn>
@@ -13,16 +13,15 @@
         <v-btn fab class="mx-4" target="_blank" href="https://dev.to/jbeachy21"><v-icon>mdi-dev-to</v-icon></v-btn>
 
           
-   
+      </v-card>
 
-    </v-card-text>
-      <v-divider></v-divider>
+    
+      
 
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Jasper Beachy</strong>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+      
+      
+    
+    </v-container>
 </template>
 
 
