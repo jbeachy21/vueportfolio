@@ -1,8 +1,8 @@
 <template>
-    <v-container dark padless absolute flat tile fluid class="indigo lighten-1 white--text text-center" style="margin: 0px; padding: 0px; width: 100%">
+    <v-footer padless flat tile fluid absolute class="indigo lighten-1 white--text text-center" style="margin: 0px; padding: 0px; width: 100%; height: 100%">
     
   
-      <v-card>
+      <v-card class="text-center">
     
 
         <v-btn fab class="mx-4" href="https://www.linkedin.com/in/jasperbeachy/" target="_blank"><v-icon>mdi-linkedin</v-icon></v-btn>
@@ -21,7 +21,7 @@
       
       
     
-    </v-container>
+    </v-footer>
 </template>
 
 
