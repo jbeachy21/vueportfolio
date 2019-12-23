@@ -63,7 +63,7 @@
         <v-tooltip v-model="show" top>
           <template v-slot:activator="{ on }">
             <v-btn icon v-on="on">
-              <v-btn dark  class="mx-4" href=".././assets/JasperBeachy.txt" target="_blank"><v-icon>mdi-file-account-outline</v-icon></v-btn>
+              <v-btn dark  class="mx-4"><a href=".././assets/JasperBeachy.pdf" download style="text-decoration: none; color: white;"><v-icon>mdi-file-account-outline</v-icon></a></v-btn>
             </v-btn>
           </template>
           <span>Resume</span>
