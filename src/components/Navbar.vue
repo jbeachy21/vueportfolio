@@ -1,9 +1,9 @@
 <template>
     <nav>
         
-        <v-toolbar flat app dark prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+        <v-toolbar flat app color="light-blue" >
         
-        
+        <!-- prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" -->
 
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
