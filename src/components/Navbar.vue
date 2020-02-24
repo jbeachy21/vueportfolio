@@ -18,12 +18,7 @@
          
 
 
-     <v-tooltip bottom>
-      <template v-slot:activator="{ on }">
-        <v-btn dark v-on="on" to="/contact" color="blue"><v-icon>mdi-phone</v-icon></v-btn>
-      </template>
-      <span>Contact</span>
-    </v-tooltip>
+    
 
 
 

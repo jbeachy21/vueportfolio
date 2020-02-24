@@ -96,14 +96,14 @@
       <v-card-actions>
         <v-btn fab
           color="blue"
-          text href="https://jbeachy21.github.io/jbeachy21.github.io/CrystalCollector/CrystalCollector.html"
+          text href="https://jbeachy21.github.io/jbeachy21.github.io/CrystalCollector/CrystalCollector.html" target="_blank"
         >
           Site
         </v-btn>
   
-        <v-btn
+        <v-btn onMouseOver="this.style.color='#6e5494"
           color="Purple" fab
-          text href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/CrystalCollector"
+          text href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/CrystalCollector" target="_blank"
         >
          <v-icon>mdi-github-circle</v-icon>
         </v-btn>
