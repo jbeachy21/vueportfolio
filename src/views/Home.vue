@@ -11,9 +11,7 @@
     <br>
     <br>
 
-    <v-card
-    class="mx-auto"
-    max-width="1058">
+    <v-card class="mx-auto" max-width="1058">
 
 
     <v-card-text><p class="display-2 text--primary">Jasper Beachy</p>
