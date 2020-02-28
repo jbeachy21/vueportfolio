@@ -25,7 +25,7 @@
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
-        clickMode="bubble" style=" margin-top:50px; 
+        clickMode="push" style=" margin-top:50px; 
         margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
      
       

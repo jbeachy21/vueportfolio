@@ -51,7 +51,8 @@
       front end framework.</p>
     <br>
     <p class="body-1">Since completing my most recent role at DeFiner, I have been searching for a full time role.
-    If you wish to schedule a time to chat, please use the calendly link below.</p>
+    If you wish to schedule a time to chat, please use the calendly link below or use the links below to shoot me
+    an email or to connect on LinkedIn.</p>
       </v-card-text>   
     
 
