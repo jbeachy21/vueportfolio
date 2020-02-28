@@ -43,8 +43,7 @@ import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
 
 
-import { ParticlesBg } from "particles-bg-vue";
-Vue.use(ParticlesBg)
+ 
 
 
 import VuePageTransition from 'vue-page-transition'
@@ -56,7 +55,8 @@ Vue.use(VuePageTransition)
 export default Vue.extend({
   name: 'App',
   components: {
-  
+  VueParticles,
+  VuePageTransition,
   Navbar,
   Footer
   },
