@@ -1,7 +1,15 @@
 <template>
     <nav>
+
+      
+
         
         <v-toolbar flat app color="light-blue" >
+
+            
+          
+             
+          
         
         <!-- prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" -->
 
@@ -42,6 +50,8 @@
 
 
 <script>
+
+
 export default {
     
 }

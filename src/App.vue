@@ -22,11 +22,7 @@
         clickMode="push" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
      
       
-      <!-- <router-view>
       
-    
-      </router-view> -->
-    
     
       <vue-page-transition name="fade">
   <router-view />
@@ -53,6 +49,9 @@ Vue.use(ParticlesBg)
 
 import VuePageTransition from 'vue-page-transition'
 Vue.use(VuePageTransition)
+
+
+
 
 export default Vue.extend({
   name: 'App',
