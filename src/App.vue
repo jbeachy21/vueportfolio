@@ -39,15 +39,15 @@ import Vue from 'vue';
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
  
-import VueParticles from 'vue-particles'
-Vue.use(VueParticles)
+import VueParticles from 'vue-particles';
+Vue.use(VueParticles);
 
 
  
 
 
-import VuePageTransition from 'vue-page-transition'
-Vue.use(VuePageTransition)
+import VuePageTransition from 'vue-page-transition';
+Vue.use(VuePageTransition);
 
 
 
