@@ -4,11 +4,16 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
+
+
+
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import( '../views/Home.vue' )
+    component: () => import( '../views/Home.vue' ),
+    // to change transition change page transition change here 
+    // meta: {transition: 'fade'}
   },
   
   {

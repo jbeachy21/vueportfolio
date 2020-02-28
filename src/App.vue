@@ -1,21 +1,36 @@
 <template>
-  <v-app class="grey-lighten">
+  <v-app class="grey-lighten" style="background-image: assets/space.jpg">
     
     <Navbar></Navbar>
     
       
       
       
-      <vue-particles color="#dedede" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
+      <vue-particles color="#dedede"  :particlesNumber="150"
+      :particleOpacity="1.5"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
      
       
-      <router-view>
-      
-      
-      </router-view>
+      <!-- <router-view>
       
     
-     
+      </router-view> -->
+    
+    
+      <vue-page-transition name="fade">
+  <router-view />
+</vue-page-transition>
 
      <Footer></Footer>
      
@@ -35,6 +50,9 @@ Vue.use(VueParticles)
 import { ParticlesBg } from "particles-bg-vue";
 Vue.use(ParticlesBg)
 
+
+import VuePageTransition from 'vue-page-transition'
+Vue.use(VuePageTransition)
 
 export default Vue.extend({
   name: 'App',
