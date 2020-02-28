@@ -2,19 +2,9 @@
   <div id="home">
 
 
-  
-
-    
-
-    <vue-calendly url="https://calendly.com/jbeachy-1" :height="700" style="margin-bottom:300px; position:sticky;"></vue-calendly>
-    
-
-  
-  
-
- 
-
-  
+    <vue-calendly url="https://calendly.com/jbeachy-1" :height="700" 
+    style="margin-bottom:300px; position:relative;"></vue-calendly>
+     
 
 
   </div>
@@ -22,19 +12,17 @@
 
 
 
-<script>
+<script lang="js">
 
-
-
-import Vue from 'vue'
-import VueCalendly from 'vue-calendly';
-Vue.use(VueCalendly);
 
 
 export default {
   name: 'home',
   components: {
+   
+  },
+  data: () => ({
     
-  }
+  }),
 }
 </script>

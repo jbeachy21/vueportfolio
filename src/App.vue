@@ -6,20 +6,22 @@
       
       
       
-      <vue-particles color="#dedede"  :particlesNumber="150"
+      <vue-particles color="#dedede"  :particlesNumber="250"
       :particleOpacity="1.5"
+      
         shapeType="circle"
         :particleSize="4"
         linesColor="#dedede"
-        :linesWidth="1"
+        
+        :linesWidth="2"
         :lineLinked="true"
-        :lineOpacity="0.4"
+        :lineOpacity="1.0"
         :linesDistance="150"
-        :moveSpeed="3"
+        :moveSpeed="5"
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
-        clickMode="push" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
+        clickMode="repulse" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
      
       
       
@@ -34,21 +36,18 @@
   </v-app>
 </template>
 
-<script lang="ts">
+<script lang="js">
 import Vue from 'vue';
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
- 
-import VueParticles from 'vue-particles';
+import VueCalendly from "vue-calendly"
+import VueParticles from "vue-particles";
+import VuePageTransition from "vue-page-transition";
+
+
+Vue.use(VueCalendly)
 Vue.use(VueParticles);
-
-
- 
-
-
-import VuePageTransition from 'vue-page-transition';
 Vue.use(VuePageTransition);
-
 
 
 
@@ -57,6 +56,7 @@ export default Vue.extend({
   components: {
   VueParticles,
   VuePageTransition,
+  
   Navbar,
   Footer
   },
