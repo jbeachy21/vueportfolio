@@ -1,28 +1,34 @@
 <template>
-  <v-app class="grey-lighten" style="background-image: assets/space.jpg">
+  <v-app class="grey-lighten">
     
+<!-- APOD link https://api.nasa.gov/planetary/apod?api_key=g7YDz5BJenZLjZ8Xph5SvJlfUfiKKTRhQo0LZefq -->
+
+
+
     <Navbar></Navbar>
     
-      
+    <v-img src="./assets/space.jpg">
       
       
       <vue-particles color="#dedede"  :particlesNumber="250"
       :particleOpacity="1.5"
       
         shapeType="circle"
-        :particleSize="4"
+        :particleSize="5"
         linesColor="#dedede"
         
         :linesWidth="2"
         :lineLinked="true"
         :lineOpacity="1.0"
         :linesDistance="150"
-        :moveSpeed="5"
+        :moveSpeed="7"
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
-        clickMode="repulse" style=" margin-top:50px; margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
+        clickMode="bubble" style=" margin-top:50px; 
+        margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
      
+      
       
       
     
@@ -30,6 +36,7 @@
   <router-view />
 </vue-page-transition>
 
+    </v-img>
      <Footer></Footer>
      
 
@@ -49,7 +56,8 @@ Vue.use(VueCalendly)
 Vue.use(VueParticles);
 Vue.use(VuePageTransition);
 
-
+let image = "assets/space.jpg";
+let link = "https://api.nasa.gov/planetary/apod?api_key=g7YDz5BJenZLjZ8Xph5SvJlfUfiKKTRhQo0LZefq";
 
 export default Vue.extend({
   name: 'App',
@@ -63,6 +71,9 @@ export default Vue.extend({
    
 
   data: () => ({
+    
+    
+      
     
   }),
 });
