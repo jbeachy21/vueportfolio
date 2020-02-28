@@ -36,7 +36,7 @@
          </v-tooltip>
         <v-dialog v-model="dialog" persistent max-width="290">
           <v-card>
-            
+            <br>
             <v-card-text class="text-center"><a href="tel:+6503849045" style="font-size:22px; font-weight: 300px;">(650) 384-9045</a></v-card-text>
             <v-card-text class="text-center"><a href="mailto:jbeachy@gustavus.edu?Subject=Hello" target="_blank" style="font-size:22px; font-weight: 300px;">jbeachy@gustavus.edu</a></v-card-text>
             <v-card-actions>
@@ -60,14 +60,14 @@
 
         
         <!-- Resume -->
-        <v-tooltip v-model="show" top>
+        <!-- <v-tooltip v-model="show" top>
           <template v-slot:activator="{ on }">
             <v-btn icon v-on="on">
               <v-btn dark  class="mx-4"><a href=".././assets/JasperBeachy.pdf" download style="text-decoration: none; color: white;"><v-icon>mdi-file-account-outline</v-icon></a></v-btn>
             </v-btn>
           </template>
           <span>Resume</span>
-        </v-tooltip>
+        </v-tooltip> -->
 
 
 
