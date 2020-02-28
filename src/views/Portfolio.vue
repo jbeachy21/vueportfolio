@@ -1,10 +1,14 @@
 <template>
   
   <div id="portfolio">
-   
-  <v-container>
+  
+    
+  
+  <v-container z-index: 999;>
+    
     <v-row >
 
+      
 
       <!-- 1 -->
       <v-col>
@@ -541,19 +545,29 @@
 
 
   
-
-
+  
+  
   </v-container>
 
 
+ 
   </div>
+
+
 
 
   
 </template>
 
 <script>
+import Vue from 'vue' 
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
 // @ is an alias to /src
+
+
+import ParticlesBg from "particles-bg-vue";
+Vue.use(ParticlesBg)
 
 
 export default {
