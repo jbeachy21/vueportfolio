@@ -87,14 +87,14 @@
 
         <!-- Dev -->
 
-        <v-tooltip v-model="show" top>
+        <!-- <v-tooltip v-model="show" top>
           <template v-slot:activator="{ on }">
             <v-btn icon v-on="on">
               <v-btn dark  class="mx-4" target="_blank" href="https://dev.to/jbeachy21"><v-icon>mdi-dev-to</v-icon></v-btn>
             </v-btn>
           </template>
           <span>Dev</span>
-        </v-tooltip>
+        </v-tooltip> -->
         
 
         </v-card-text>
