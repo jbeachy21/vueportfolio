@@ -1,9 +1,14 @@
 <template>
   
   <div id="portfolio">
+  <br><br>
+  <h2 class="text-center" style="color:#fff;">Bootcamp Projects</h2>
   
   
+
   
+  
+
   <v-container z-index: 999;>
     
     <v-row >
@@ -12,46 +17,21 @@
 
       <!-- 1 -->
       <v-col>
-      
-    <v-card 
-      
-      max-width="450" max-height="482"
-    >
-      <v-img
-        class="white--text align-end"
-        height="250px"
-        src=".././assets/giftastic.png"
-      >
-       
-      </v-img>
-  
-      <v-card-subtitle class="pb-0">Giftastic</v-card-subtitle>
-  
-      
-  
+    <v-hover>
+    <template v-slot="{ hover }">
+    <v-card max-width="450" max-height="482" :elevation="hover ? 24 : 6">
+    <v-img class="white--text align-end" height="250px" src=".././assets/giftastic.png"></v-img>
+    <v-card-subtitle class="pb-0">Giftastic</v-card-subtitle>
+
         <v-card-actions>
-        <v-btn fab
-          color="blue"
-          text href="https://jbeachy21.github.io/Giftastic/index.html" target="_blank"
-        >
-          Site
-        </v-btn>
+        <v-btn fab color="blue" text href="https://jbeachy21.github.io/Giftastic/index.html" target="_blank">Site</v-btn>
   
-        <v-btn fab id="github2"
-          color="Purple"
-          text
-          href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/Giftastic" target="_blank"
-        >
+        <v-btn fab id="github2" color="Purple" text href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/Giftastic" target="_blank" >
          <v-icon>mdi-github-circle</v-icon>
         </v-btn>
 
 
-        <v-btn
-        icon
-        @click="show1 = !show1">
-
-        <v-icon>{{ show1 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
-      </v-btn>
+        <v-btn icon @click="show1 = !show1"><v-icon>{{ show1 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon></v-btn>
     </v-card-actions>
 
     <v-expand-transition>
@@ -68,6 +48,9 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+    </v-hover>
+
     </v-col>
 
     
@@ -81,54 +64,31 @@
 
  <!-- 2 -->
      <v-col>
-    <v-card
+
+    <v-hover>
+    <template v-slot="{ hover }">
+    <v-card :elevation="hover ? 24 : 6"
       
-      max-width="450" max-height="482"
-    >
-      <v-img
-        class="white--text align-end"
-        height="250px"
-        src="../assets/crystal2.png"
-      >
-       
-      </v-img>
-  
+      max-width="450" max-height="482">
+      <v-img class="white--text align-end" height="250px" src="../assets/crystal2.png"></v-img>
       <v-card-subtitle class="pb-0">Crystal Collector</v-card-subtitle>
-  
-       
-  
       <v-card-actions>
-        <v-btn fab
-          color="blue"
-          text href="https://jbeachy21.github.io/jbeachy21.github.io/CrystalCollector/CrystalCollector.html" target="_blank"
-        >
-          Site
-        </v-btn>
+        <v-btn fab color="blue" text href="https://jbeachy21.github.io/jbeachy21.github.io/CrystalCollector/CrystalCollector.html" target="_blank">
+          Site</v-btn>
   
-        <v-btn onMouseOver="this.style.color='#6e5494"
-          color="Purple" fab
-          text href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/CrystalCollector" target="_blank"
-        >
-         <v-icon>mdi-github-circle</v-icon>
-        </v-btn>
+        <v-btn onMouseOver="this.style.color='#6e5494" color="Purple" fab text href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/CrystalCollector" target="_blank">
+         <v-icon>mdi-github-circle</v-icon></v-btn>
 
 
-         <v-btn
-        icon
-        @click="show2 = !show2">
+         <v-btn icon @click="show2 = !show2">
 
-        <v-icon>{{ show2 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
-      </v-btn>
-       </v-card-actions>
+        <v-icon>{{ show2 ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon></v-btn></v-card-actions>
 
-    <v-expand-transition>
-      <div v-show="show2">
+    <v-expand-transition><div v-show="show2">
         <v-divider></v-divider>
 
 
  <v-card-text class="text--primary">
-        
-  
         <p>This project makes use of the data attribute to randomly assign integer values 
           in a range to 4 buttons. The goal is to click these buttons to perfectly 
           reach the score goal to win the game.</p>
@@ -137,13 +97,15 @@
     </v-expand-transition>
      
     </v-card>
-  
+    </template>
+    </v-hover>
     </v-col> 
     </v-row>
-
   </v-container>
 
-<!-- Second row -->
+
+
+
 
 <v-container>
     <v-row >
@@ -151,8 +113,9 @@
 
       <!-- 3 -->
       <v-col>
-      
-      <v-card 
+      <v-hover>
+    <template v-slot="{ hover }">
+      <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -207,7 +170,8 @@
       </div>
     </v-expand-transition>
     </v-card>
-    
+    </template>
+      </v-hover>
     </v-col>
 
     
@@ -223,7 +187,9 @@
 
  
     <v-col>
-    <v-card 
+      <v-hover>
+    <template v-slot="{ hover }">
+    <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -278,6 +244,8 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+      </v-hover>
     </v-col>
   
     </v-row>
@@ -288,7 +256,9 @@
   <!-- 5 -->
 
   <v-col>
-    <v-card 
+    <v-hover>
+    <template v-slot="{ hover }">
+    <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -343,13 +313,17 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+    </v-hover>
     </v-col>
 
 
     <!-- 6 -->
   
      <v-col>
-    <v-card 
+       <v-hover>
+    <template v-slot="{ hover }">
+    <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -404,6 +378,8 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+       </v-hover>
     </v-col>
 
 
@@ -414,8 +390,9 @@
 
   <!-- 7 -->
   <v-col>
-
-     <v-card 
+    <v-hover>
+    <template v-slot="{ hover }">
+     <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -470,6 +447,8 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+    </v-hover>
     </v-col>
 
 
@@ -477,8 +456,9 @@
   
 
   <v-col>
-
-     <v-card 
+    <v-hover>
+    <template v-slot="{ hover }">
+     <v-card :elevation="hover ? 24 : 6"
       
       max-width="450" max-height="482"
     >
@@ -534,6 +514,8 @@
       </div>
     </v-expand-transition>
     </v-card>
+    </template>
+    </v-hover>
     </v-col>
 
 </v-row>

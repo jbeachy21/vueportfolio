@@ -1,17 +1,9 @@
 <template>
+   
+  
     <nav>
-
-      
-
-        
         <v-toolbar flat app color="light-blue" >
-
-            
-          
-             
-          
         
-        <!-- prominent src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" -->
 
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -20,32 +12,25 @@
       <span>Home</span>
     </v-tooltip>
 
-
-
-
-         
-
-
-    
-
-
-
-         
-
-
          <v-tooltip bottom>
       <template v-slot:activator="{ on }">
         <v-btn dark v-on="on" to="/portfolio" color="blue"><v-icon>mdi-file</v-icon></v-btn>
       </template>
       <span>Portfolio</span>
-    </v-tooltip>
-        
-        
-        
-        
-        
+    </v-tooltip>  
         </v-toolbar>
-    </nav>
+    </nav> 
+
+    
+
+
+     
+   
+  
+
+
+
+
 </template>
 
 
@@ -53,6 +38,8 @@
 
 
 export default {
-    
+    data: () => ({
+       
+    }),
 }
 </script>

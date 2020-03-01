@@ -54,7 +54,7 @@ Vue.use(VueCalendly)
 Vue.use(VueParticles);
 Vue.use(VuePageTransition);
 
-let image = "assets/space.jpg";
+ 
 let link = "https://api.nasa.gov/planetary/apod?api_key=g7YDz5BJenZLjZ8Xph5SvJlfUfiKKTRhQo0LZefq";
 
 export default Vue.extend({
