@@ -122,7 +122,7 @@
       <v-img
         class="white--text align-end"
         height="250px"
-        src=".././assets/train.png"
+        src=".././assets/train.jpg"
       >
        
       </v-img>
@@ -330,27 +330,22 @@
       <v-img
         class="white--text align-end"
         height="250px"
-        src=".././assets/howsmydriving.png"
+        src=".././assets/liri.jpg"
       >
        
       </v-img>
   
-      <v-card-subtitle class="pb-0">Hows My Driving</v-card-subtitle>
+      <v-card-subtitle class="pb-0">LIRI</v-card-subtitle>
   
       
   
         <v-card-actions>
-        <v-btn fab
-          color="blue"
-          text href="https://secure-mesa-64150.herokuapp.com/" target="_blank"
-        >
-          Site
-        </v-btn>
+        
   
         <v-btn fab id="github2"
           color="Purple"
           text
-          href="https://github.com/jbeachy21/HowsMyDriving" target="_blank"
+          href="https://github.com/jbeachy21/LIRI" target="_blank"
         >
          <v-icon>mdi-github-circle</v-icon>
         </v-btn>
@@ -372,8 +367,9 @@
  <v-card-text class="text--primary">
         
   
-        <p>The Yelp for reviewing how people drive. 
-          This project uses node, express, bootstrap, and passport.</p>
+        <p>This project uses Node.js to create a command line interface (CLI). 
+        Four commands, concert-this, movie-this, spotify-this-song, and do-what-it-says, 
+        are used to access 3 different APIs and their data.</p>
       </v-card-text>
       </div>
     </v-expand-transition>
