@@ -51,7 +51,7 @@
         <v-tooltip v-model="show" top>
           <template v-slot:activator="{ on }">
             <v-btn icon v-on="on">
-              <v-btn dark  class="mx-4" href="https://github.com/jbeachy21" target="_blank"><v-icon>mdi-github-circle</v-icon></v-btn>
+              <v-btn dark  class="mx-4" href="https://github.com/jbeachy21" target="_blank"><v-icon>fab fa-github</v-icon></v-btn>
             </v-btn>
           </template>
           <span>Github</span>
