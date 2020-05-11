@@ -26,7 +26,7 @@
                     fab
                     color="blue"
                     text
-                    href="https://jbeachy21.github.io/Giftastic/index.html"
+                    href="https://github.com/jbeachy21/Giftastic"
                     target="_blank"
                     >Site</v-btn
                   >
