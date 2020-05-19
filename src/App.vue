@@ -10,7 +10,7 @@
     <v-img src="./assets/space.jpg">
       
       
-      <vue-particles color="#dedede" :particlesNumber="250"
+      <vue-particles color="#dedede" :particlesNumber="100"
         :particleOpacity="1.5"
         shapeType="circle"
         :particleSize="5"
