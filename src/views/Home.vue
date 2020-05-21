@@ -25,13 +25,13 @@
     My name is Jasper Beachy, an aspiring Web Developer with a passion 
     for solving real world problems using science and technology, currently seeking my first 
     full time opportunity.  I have been coding in some form since high school but formally started
-    to learn how to program in college where I learned languages such as Python, C, C++, Java, and Matlab.
-    Within the last year, I graduated from the University of Minnesota Full Stack Web Development bootcamp.
-    At my bootcamp, I learned relevant Web Development technologies such as HTML, CSS, Git, JavaScript, Firebase,
-    Heroku, jQuery, Node, npm, React, RESTful APIs, MySQL, and MongoDb making numerous single page applications 
-    and a few larger projects along the way.  After my bootcamp I took on a part time internship at a 
-    cryptocurrency startup called DeFiner.  At my internship I got exposure to new tools such as SCSS, 
-    Angular, and TypeScript.  Since my time with DeFiner ended I have gone on to learn more on my own.  
+    to learn how to program in college where I learned languages such as Python, C, C++, Java, and Matlab, while 
+    earning a degree in Chemistry.  Within the last year, I graduated from the University of Minnesota Full Stack 
+    Web Development bootcamp.  At my bootcamp, I learned relevant Web Development technologies such as HTML, CSS, 
+    Git, JavaScript, Firebase, Heroku, jQuery, Node, npm, React, RESTful APIs, MySQL, and MongoDb making numerous 
+    single page applications and a few larger projects along the way.  After my bootcamp I took on a part time 
+    internship at a cryptocurrency startup called DeFiner.  At my internship I got exposure to new tools such as 
+    SCSS, Angular, and TypeScript.  Since my time with DeFiner ended I have gone on to learn more on my own.  
     For example, the portfolio you are looking at was designed from scratch in Vue.  Additionally, I went on 
     to relearn Python on Udemy and have even gone on to investigate Deno, (version 1.0) made by Ryan Dahl, 
     who created Node.  Now, I am very eagerly searching for my first full time development opportunity.      
