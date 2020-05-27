@@ -25,7 +25,7 @@
     My name is Jasper Beachy, an aspiring Web Developer with a passion 
     for solving real world problems using science and technology, currently seeking a 
     full time opportunity.  I have been coding since college where I learned languages such as Python, 
-    C, C++, Java, and Matlab. While earning a B.A in Chemistry.  Last year, I graduated from the 
+    C, C++, Java, and Matlab, while earning a B.A in Chemistry.  Last year, I graduated from the 
     University of Minnesota Full Stack Web Development bootcamp.
     There, I mastered relevant Web Development technologies and methodologies such as Git, JavaScript, Firebase,
     HTML, CSS, Agile workflow, Heroku, jQuery, Node, npm, React, RESTful APIs, MySQL, and MongoDb making numerous 
