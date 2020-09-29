@@ -29,12 +29,12 @@
     University of Minnesota Full Stack Web Development bootcamp.
     There, I mastered relevant Web Development technologies and methodologies such as Git, JavaScript, Firebase,
     HTML, CSS, Agile workflow, Heroku, jQuery, Node, npm, React, RESTful APIs, MySQL, and MongoDb making numerous 
-    single page applications and a few larger projects along the way.  After my bootcamp I was a part time 
-    intern at a cryptocurrency startup called DeFiner, where I learned new tools such as SCSS, TypeScript 
-    and Angular.  Since then, I have gone on to learn more on my own.  
-    For example, the portfolio you are looking at was designed from scratch in Vue.  Additionally, I have
-    advanced my mastery of Python with a course from Udemy and am investigating Deno, (version 1.0) 
-    made by Ryan Dahl, who created Node.  Now, I am eager to get started on a full time development opportunity.      
+    single page applications and a few larger projects along the way.  After my bootcamp I was a part time intern 
+    at a cryptocurrency startup called DeFiner, where I learned new tools such as SCSS, TypeScript and Angular. 
+    Since then, I have gone on to learn more on my own. For example, my portfolio was made from scratch using Vue 
+    and I have advanced my mastery of Python with a course from Udemy.  Currently, I am enrolled in a Data Science 
+    bootcamp at the University of Minnesota and I am eager to learn, and gain as much experience in development as 
+    I possibly can.      
     </p>
       <br>
     
