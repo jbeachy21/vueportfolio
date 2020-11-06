@@ -11,7 +11,7 @@
     <br>
     <br>
 
-    <v-card class="mx-auto" max-width="1058">
+    <v-card class="mx-auto" max-width="1058" style="z-index:0; position:sticky">
 
 
     <v-card-text><p class="display-2 text--primary">Jasper Beachy</p>
@@ -56,7 +56,7 @@
 
 
     <vue-calendly url="https://calendly.com/jbeachy-1" :height="700" 
-    style="margin-bottom:300px; position:relative;"></vue-calendly>
+    style="margin-bottom:300px;z-index:0;position:sticky"></vue-calendly>
      
 
 

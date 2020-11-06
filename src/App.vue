@@ -10,7 +10,7 @@
     <v-img src="./assets/space.jpg">
       
       
-      <vue-particles color="#dedede" :particlesNumber="100"
+      <vue-particles color="#dedede" :particlesNumber="50"
         :particleOpacity="1.5"
         shapeType="circle"
         :particleSize="5"
@@ -23,8 +23,20 @@
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
-        clickMode="push" style=" margin-top:50px; 
-        margin-bottom:50px; position: fixed; left: 0; right: 0; z-index: 0;"></vue-particles>
+        clickMode="push" 
+        style=" margin-top:50px; 
+        margin-bottom:50px; 
+        position: absolute; 
+        
+        width: 75em;
+        height: 100em;
+        margin: auto;
+        border: 3px solid #73AD21;
+        left: 0; 
+        right: 0; 
+       
+        z-index: -1;"> 
+        </vue-particles>
      
       
       
