@@ -31,7 +31,7 @@
         width: 75em;
         height: 100em;
         margin: auto;
-        border: 3px solid #73AD21;
+        <!-- border: 3px solid #73AD21; -->
         left: 0; 
         right: 0; 
        
