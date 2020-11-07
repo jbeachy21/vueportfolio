@@ -10,7 +10,7 @@
     <v-img src="./assets/space.jpg">
       
       
-      <vue-particles color="#dedede" :particlesNumber="50"
+      <vue-particles color="#dedede" :particlesNumber="100"
         :particleOpacity="1.5"
         shapeType="circle"
         :particleSize="5"
@@ -28,7 +28,7 @@
         margin-bottom:50px; 
         position: absolute; 
         
-        width: 75em;
+        width: 85em;
         height: 100em;
         margin: auto;
         <!-- border: 3px solid #73AD21; -->
