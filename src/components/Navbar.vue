@@ -7,10 +7,10 @@
 
       
 
-    <a id="home" href="/" v-wave="{duration:2.0,cancellationPeriod:25}"> 
+    <a id="home" href="/" v-wave="{duration:2.0,cancellationPeriod:25}" width=200> 
     <span class="ripple"><i class="fas fa-home"> Home</i></span></a>
 
-    <a id="portfolio" href="/portfolio" v-wave="{duration:2.0,cancellationPeriod:25}">
+    <a id="portfolio" href="/portfolio" v-wave="{duration:2.0,cancellationPeriod:25}" width=200>
     <span class="ripple"><i class="fas fa-file-code"></i> Portfolio</span></a>
        
 
