@@ -8,12 +8,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
-
+import VWave from 'v-wave'
 library.add(faFontAwesome);
 library.add(faUserSecret);
 
 
 Vue.config.productionTip = false
+
+
 
 new Vue({
   router,
@@ -21,3 +23,5 @@ new Vue({
   vuetify,
   render: h => h(App)
 }).$mount('#app')
+
+Vue.use(VWave)

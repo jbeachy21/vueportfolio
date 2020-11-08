@@ -2,15 +2,18 @@
 
    
    <Slide :crossIcon="false" width=200>
+  
+     
 
+      
 
-     <a id="home" href="/">
-        <span><i class="fas fa-home"> Home</i></span>
-      </a>
+    <a id="home" href="/" v-wave="{duration:2.0,cancellationPeriod:25}"> 
+    <span class="ripple"><i class="fas fa-home"> Home</i></span></a>
 
-      <a id="portfolio" href="/portfolio">
-        <span><i class="fas fa-file-code"></i> Portfolio</span>
-      </a>
+    <a id="portfolio" href="/portfolio" v-wave="{duration:2.0,cancellationPeriod:25}">
+    <span class="ripple"><i class="fas fa-file-code"></i> Portfolio</span></a>
+       
+
    </Slide>
   
 </template>
@@ -52,6 +55,8 @@
     color: #A2A2A1FF;
     text-shadow: none;
 }
+
+
  
 </style>
 <script>
