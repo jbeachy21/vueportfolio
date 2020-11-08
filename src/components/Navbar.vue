@@ -27,7 +27,9 @@
 
 <style lang="scss">
   /* Basic styles */
-
+  .bm-item-list {
+    margin: 0 0 0 0;
+  }
   div.bm-menu {
     background-color: #195190FF;
   }
