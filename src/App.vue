@@ -5,11 +5,11 @@
 
 
 
-    <Navbar></Navbar>
+    
     
     <v-img src="./assets/space.jpg">
-      
-      
+    <Navbar></Navbar>  
+    
       <vue-particles color="#dedede" :particlesNumber="100"
         :particleOpacity="1.5"
         shapeType="circle"
@@ -47,6 +47,7 @@
 </vue-page-transition>
 
     </v-img>
+   
      <Footer></Footer>
      
 
