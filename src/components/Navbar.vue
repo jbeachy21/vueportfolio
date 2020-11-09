@@ -7,60 +7,47 @@
 
       
 
-    <a id="home" href="/" v-wave="{duration:2.0,cancellationPeriod:25}" width=200> 
-    <span class="ripple"><i class="fas fa-home"> Home</i></span></a>
+    <v-btn active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" extra large to="/" style="padding-left: 0; padding-right: 0;"> 
+    <span class="ripple" style="color:#195190FF;"><i class="fas fa-home"> Home</i></span></v-btn>
 
-    <a id="portfolio" href="/portfolio" v-wave="{duration:2.0,cancellationPeriod:25}" width=200>
-    <span class="ripple"><i class="fas fa-file-code"></i> Portfolio</span></a>
-       
+    
+    
+
+
+    <v-btn active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" to ="/portfolio" extra large style="padding-left: 0; padding-right: 0;">
+    <span class="ripple" style="color: #195190FF;"><i class="fas fa-file-code"> Portfolio</i></span></v-btn>
+    
+      
+     
 
    </Slide>
   
 </template>
 
-  
-
-
-
-
-
-
-
 
 
 <style lang="scss">
   /* Basic styles */
-  .bm-item-list {
-    margin: 0 0 0 0;
-  }
   div.bm-menu {
     background-color: #195190FF;
   }
-  nav {
-    margin: 0 0 0 0;
-  }
-  .bm-item-list {
-    margin-left: 0px
-  }
-  a#home:hover, a#portfolio:hover 
-  {
-     
-    background-color: #A2A2A1FF;
-  }
-  .bm-cross, .bm-cross:hover, .bm-cross:active {
-      background: #A2A2A1FF;
-  }
-  ::selection {
-    background-color: #b3d4fc;
-    color: #A2A2A1FF;
-    text-shadow: none;
+
+  .v-btn--active.no-active::before {                                                                             
+  opacity: 0 !important;
 }
+  nav.bm-item-list {
+    background-color: #195190FF;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: auto;
+  }
 
-
- 
 </style>
 <script>
   import { Slide } from 'vue-burger-menu' 
+
+
 
 export default {
     components: {
@@ -68,12 +55,8 @@ export default {
     },
     data: () => ({
       
-        
-      
-    }),
-    
-    
 
-    
+    }),
+       
 }
 </script>
