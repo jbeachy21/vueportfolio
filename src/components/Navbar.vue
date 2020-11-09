@@ -7,14 +7,14 @@
 
       
 
-    <v-btn active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" extra large to="/" style="padding-left: 0; padding-right: 0;"> 
+    <v-btn id="home" active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" extra large to="/" style="padding-left: 0; padding-right: 0;"> 
     <span class="ripple" style="color:#195190FF;"><i class="fas fa-home"> Home</i></span></v-btn>
 
     
-    
+    <br>
 
 
-    <v-btn active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" to ="/portfolio" extra large style="padding-left: 0; padding-right: 0;">
+    <v-btn id="portfolio" active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" to ="/portfolio" extra large style="padding-left: 0; padding-right: 0;">
     <span class="ripple" style="color: #195190FF;"><i class="fas fa-file-code"> Portfolio</i></span></v-btn>
     
       
@@ -35,12 +35,18 @@
   .v-btn--active.no-active::before {                                                                             
   opacity: 0 !important;
 }
+
+
   nav.bm-item-list {
     background-color: #195190FF;
     display: flex;
     flex-direction: column;
     flex: 1;
     margin: auto;
+  }
+
+  a#home:hover, a#portfolio:hover {
+    background-color: yellow;
   }
 
 </style>
