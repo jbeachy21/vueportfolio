@@ -24,10 +24,10 @@
   
   display: flex;
   justify-content: center;">
-       <v-avatar 
+       <v-avatar class='shadow'
       tile
       color="blue"  style="border-radius:50%;width:100px;max-width: 200px;height: ;"
-    ><v-img src='../assets/20190312_171808.jpg' ></v-img>
+    ><v-img src='../assets/20190312_171808.jpg'></v-img>
        
         <!-- height='200px' width='200px' -->
      
@@ -76,7 +76,19 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
 
+
+.shadow
+{
+  box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 2px 16px 7px rgba(0,0,0,0.51);
+
+
+}
+
+</style>
 
 <script lang="js">
 
