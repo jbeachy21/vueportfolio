@@ -46,23 +46,21 @@
   }
 
    a#home, a#portfolio {
-    transition: background-color 400ms linear;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    // transition: background-color 400ms linear;
+    
     transition: all 0.4s ease-in-out;
 
     // transition: box-shadow 250ms linear;
     
    }
-  a#home::after,a#portfolio::after {
-   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transition: opacity 0.3s ease-in-out;
-  }
+
 
   a#home:hover, a#portfolio:hover {
     animation-name: my-animation;
     animation-duration: 400ms;
     background-color: #FDD20EFF;
     animation-fill-mode: forwards;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
      
     //  #2BAE66FF royal green, #F93822FF bright red, #FDD20EFF yellow, #FFD662FF aspen gold, 
   }
