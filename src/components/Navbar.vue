@@ -7,14 +7,14 @@
 
       
 
-    <v-btn id="home" active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" extra large to="/" style="padding-left: 0; padding-right: 0;"> 
+    <v-btn id="home" active-class="no-active" rounded v-ripple="{class: 'primary--text'}" extra large to="/" style="padding-left: 0; padding-right: 0;"> 
     <span class="ripple" style="color:#195190FF;"><i class="fas fa-home"> Home</i></span></v-btn>
 
     
     <br>
 
 
-    <v-btn id="portfolio" active-class="no-active" rounded class="elevation-10" v-ripple="{class: 'primary--text'}" to ="/portfolio" extra large style="padding-left: 0; padding-right: 0;">
+    <v-btn id="portfolio" active-class="no-active" rounded v-ripple="{class: 'primary--text'}" to ="/portfolio" extra large style="padding-left: 0; padding-right: 0;">
     <span class="ripple" style="color: #195190FF;"><i class="fas fa-file-code"> Portfolio</i></span></v-btn>
     
       
@@ -45,14 +45,42 @@
     margin: auto;
   }
 
-  a#home, a#portfolio {
+   a#home, a#portfolio {
     transition: background-color 400ms linear;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.4s ease-in-out;
+
+    // transition: box-shadow 250ms linear;
+    
+   }
+  a#home::after,a#portfolio::after {
+   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
   }
 
   a#home:hover, a#portfolio:hover {
-    background-color: #2BAE66FF;
-    // #2BAE66FF royal green, #F93822FF bright red, #FDD20EFF yellow, #FFD662FF aspen gold, 
+    animation-name: my-animation;
+    animation-duration: 400ms;
+    background-color: #FDD20EFF;
+    animation-fill-mode: forwards;
+     
+    //  #2BAE66FF royal green, #F93822FF bright red, #FDD20EFF yellow, #FFD662FF aspen gold, 
   }
+  // @keyframes my-animation {
+  //   0%   {box-shadow: 0px 0px 0px grey}
+  //   20%  {box-shadow: 2px 2px 1px grey}
+  //   40%  {box-shadow: 4px 4px 2px grey}
+  //   60% {box-shadow: 6px 6px 3px grey}
+  //   80% {box-shadow: 8px 8px 4px grey}
+  //   100% {box-shadow: 10px 10px 5px grey}
+           
+  // }
+
+   
+  
+  
+
+  // box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 </style>
 <script>
