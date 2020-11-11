@@ -24,3 +24,5 @@ yarn-error.log*
 *.sw?
 
 .now
+# Local Netlify folder
+.netlify
