@@ -1,12 +1,12 @@
 <template>
 
   
-
+  
 
 
   <div id="home">
 
-
+     
     <br>
     <br>
     <br>
@@ -20,6 +20,19 @@
     
     </v-card-text>
       
+    <v-card-text style=" 
+  
+  display: flex;
+  justify-content: center;">
+       <v-avatar 
+      tile
+      color="blue"  style="border-radius:50%;width:100px;max-width: 200px;height: ;"
+    ><v-img src='../assets/20190312_171808.jpg' ></v-img>
+       
+        <!-- height='200px' width='200px' -->
+     
+    </v-avatar></v-card-text> 
+
     <v-card-text >
     <p class="body-1">  
     My name is Jasper Beachy, an aspiring Web Developer with a passion 
