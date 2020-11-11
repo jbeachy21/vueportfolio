@@ -45,8 +45,13 @@
     margin: auto;
   }
 
+  a#home, a#portfolio {
+    transition: background-color 400ms linear;
+  }
+
   a#home:hover, a#portfolio:hover {
-    background-color: yellow;
+    background-color: #2BAE66FF;
+    // #2BAE66FF royal green, #F93822FF bright red, #FDD20EFF yellow, #FFD662FF aspen gold, 
   }
 
 </style>
