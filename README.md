@@ -1,5 +1,9 @@
 # vueportfolio
 
+Welcome to the repository for my vue portfolio.  I created my vue portfolio using mainly vue and vuetify amongst other plugins.  Check it out here [vueportfolio](https://jasperbeachy.ninja/)
+
+
+
 ## Project setup
 ```
 npm install
