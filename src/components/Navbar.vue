@@ -28,6 +28,10 @@
 
 <style lang="scss">
   /* Basic styles */
+  .bm-burger-bars {
+    background-color: yellow;
+  }
+
   div.bm-menu {
     background-color: #195190FF;
   }
