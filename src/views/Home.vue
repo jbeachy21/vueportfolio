@@ -42,7 +42,7 @@
     favorite movies 25 at a time, parsing data to display UFO and bigfoot sightings on a leaflet 
     map, or investigating a new Raspberry Pi project idea, it is always good old-fashioned fun.</p>
       <br>
-    <p>Currently, I am focused on diving deeper into the software development world and seeing where the rabbit hole will take me. 
+    <p class="body-1">Currently, I am focused on diving deeper into the software development world and seeing where the rabbit hole will take me. 
     If you have any interesting projects you would like to reach out to me about, do not hesitate to do so.</p>
       </v-card-text>   
     
