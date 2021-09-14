@@ -676,7 +676,7 @@
 
     
         <!-- 11 -->
-      <v-row style="margin-bottom:100px;">
+      <v-row style="margin-bottom:150px;">
         <v-col>
           <v-hover>
             <template v-slot="{ hover }">
