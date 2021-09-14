@@ -54,7 +54,7 @@
     <v-row justify="space-around">
       
     <img src="../assets/originalcert.png" alt="Certificate image" >
-    <img src="../assets/udemycert_original.jpg" alt="Certificate image">
+    <img src="../assets/dataviscert.png" alt="Certificate image">
      
     </v-row>
   </v-card>
