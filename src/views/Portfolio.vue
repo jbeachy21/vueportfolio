@@ -1,7 +1,7 @@
 <template>
   <div id="portfolio">
     <br /><br />
-    <h2 class="text-center" style="color:#fff;">Bootcamp Projects</h2>
+    <h2 class="text-center" style="color:#fff;">Web Development Projects</h2>
 
     <v-container z-index: 999;>
       <v-row>
@@ -532,6 +532,142 @@
       <br />
       <br /><br /><br />
     </v-container>
+
+<!-- Data Projects -->
+
+
+
+    <h2 class="text-center" style="color:#fff;">Data Projects</h2>
+
+    <v-container z-index: 999;>
+      <v-row>
+        <!-- 9 -->
+        <v-col>
+          <v-hover>
+            <template v-slot="{ hover }">
+              <v-card
+                max-width="450"
+                max-height="482"
+                :elevation="hover ? 24 : 6"
+              >
+                <v-img
+                  class="white--text align-end"
+                  height="250px"
+                  src=".././assets/ufosightings.png"
+                ></v-img>
+                <v-card-subtitle class="pb-0">UFO Sightings</v-card-subtitle>
+
+                <v-card-actions>
+                  <v-btn
+                    fab
+                    color="blue"
+                    text
+                    href="https://java-script-challenge.vercel.app/"
+                    target="_blank"
+                    >Site</v-btn
+                  >
+
+                  <v-btn
+                    fab
+                    id="github2"
+                    color="Purple"
+                    text
+                    href="https://github.com/jbeachy21/JavaScriptChallenge"
+                    target="_blank"
+                  >
+                    <v-icon>fab fa-github</v-icon>
+                  </v-btn>
+
+                  <v-btn icon @click="show9 = !show9"
+                    ><v-icon>{{
+                      show9 ? "mdi-chevron-up" : "mdi-chevron-down"
+                    }}</v-icon></v-btn
+                  >
+                </v-card-actions>
+
+                <v-expand-transition>
+                  <div v-show="show9">
+                    <v-divider></v-divider>
+
+                    <v-card-text class="text--primary">
+                      <p>
+                      In this project, a dynamic table was created in order to display UFO sighting 
+                      data imported from a JSON file.  D3, JavaScript, HTML, and CSS were used.  
+
+                      </p>
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </template>
+          </v-hover>
+        </v-col>
+<!-- 10 -->
+        <v-col>
+          <v-hover>
+            <template v-slot="{ hover }">
+              <v-card
+                :elevation="hover ? 24 : 6"
+                max-width="450"
+                max-height="482"
+              >
+                <v-img
+                  class="white--text align-end"
+                  height="250px"
+                  src="../assets/bellybutton.png"
+                ></v-img>
+                <v-card-subtitle class="pb-0"
+                  >Belly Button Biodiversity</v-card-subtitle
+                >
+                <v-card-actions>
+                  <v-btn
+                    fab
+                    color="blue"
+                    text
+                    href="https://belly-button-bio-diversity.vercel.app/"
+                    target="_blank"
+                  >
+                    Site</v-btn
+                  >
+
+                  <v-btn
+                    onMouseOver="this.style.color='#6e5494"
+                    color="Purple"
+                    fab
+                    text
+                    href="https://github.com/jbeachy21/BellyButtonBioDiversity"
+                    target="_blank"
+                  >
+                    <v-icon>fab fa-github</v-icon></v-btn
+                  >
+
+                  <v-btn icon @click="show10 = !show10">
+                    <v-icon>{{
+                      show10 ? "mdi-chevron-up" : "mdi-chevron-down"
+                    }}</v-icon></v-btn
+                  ></v-card-actions
+                >
+
+                <v-expand-transition
+                  ><div v-show="show10">
+                    <v-divider></v-divider>
+
+                    <v-card-text class="text--primary">
+                      <p>
+                        This project makes use of the data attribute to randomly
+                        assign integer values in a range to 4 buttons. The goal
+                        is to click these buttons to perfectly reach the score
+                        goal to win the game.
+                      </p>
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </template>
+          </v-hover>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -554,6 +690,8 @@ export default {
     show6: false,
     show7: false,
     show8: false,
+    show9: false,
+    show10: false,
   }),
   name: "portfolio",
   components: {},
