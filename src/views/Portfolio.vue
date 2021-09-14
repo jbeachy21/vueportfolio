@@ -667,6 +667,135 @@
           </v-hover>
         </v-col>
       </v-row>
+
+
+
+
+
+    <v-row>
+        <!-- 11 -->
+        <v-col>
+          <v-hover>
+            <template v-slot="{ hover }">
+              <v-card
+                max-width="450"
+                max-height="482"
+                :elevation="hover ? 24 : 6"
+              >
+                <v-img
+                  class="white--text align-end"
+                  height="250px"
+                  src=".././assets/d3times.png"
+                ></v-img>
+                <v-card-subtitle class="pb-0">Data Journalism</v-card-subtitle>
+
+                <v-card-actions>
+                  <v-btn
+                    fab
+                    color="blue"
+                    text
+                    href="https://d3-challenge.vercel.app/"
+                    target="_blank"
+                    >Site</v-btn
+                  >
+
+                  <v-btn
+                    fab
+                    id="github2"
+                    color="Purple"
+                    text
+                    href="https://github.com/jbeachy21/JavaScriptChallenge"
+                    target="_blank"
+                  >
+                    <v-icon>fab fa-github</v-icon>
+                  </v-btn>
+
+                  <v-btn icon @click="show11 = !show11"
+                    ><v-icon>{{
+                      show11 ? "mdi-chevron-up" : "mdi-chevron-down"
+                    }}</v-icon></v-btn
+                  >
+                </v-card-actions>
+
+                <v-expand-transition>
+                  <div v-show="show11">
+                    <v-divider></v-divider>
+
+                    <v-card-text class="text--primary">
+                      <p>
+                      In this project, a dynamic table was created to compare health risks particular 
+                      demographics are facing.  D3, JavaScript, HTML, and CSS were used.  
+
+                      </p>
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </template>
+          </v-hover>
+        </v-col>
+<!-- 12 -->
+        <v-col>
+          <v-hover>
+            <template v-slot="{ hover }">
+              <v-card
+                :elevation="hover ? 24 : 6"
+                max-width="450"
+                max-height="482"
+              >
+                <v-img
+                  class="white--text align-end"
+                  height="250px"
+                  src="../assets/leaflet.png"
+                ></v-img>
+                <v-card-subtitle class="pb-0"
+                  >Leaflet Mapping</v-card-subtitle
+                >
+                <v-card-actions>
+                  <v-btn
+                    fab
+                    color="blue"
+                    text
+                    href="https://leaflet-omega.vercel.app/"
+                    target="_blank"
+                  >
+                    Site</v-btn
+                  >
+
+                  <v-btn
+                    onMouseOver="this.style.color='#6e5494"
+                    color="Purple"
+                    fab
+                    text
+                    href="https://github.com/jbeachy21/Leaflet"
+                    target="_blank"
+                  >
+                    <v-icon>fab fa-github</v-icon></v-btn
+                  >
+
+                  <v-btn icon @click="show12 = !show12">
+                    <v-icon>{{
+                      show12 ? "mdi-chevron-up" : "mdi-chevron-down"
+                    }}</v-icon></v-btn
+                  ></v-card-actions
+                >
+
+                <v-expand-transition
+                  ><div v-show="show12">
+                    <v-divider></v-divider>
+
+                    <v-card-text class="text--primary">
+                      <p>
+                        This project makes use of the Mapbox API in order to 
+                        plot USGS data using Leaflet.  
+                      </p>
+                    </v-card-text>
+                  </div>
+                </v-expand-transition>
+              </v-card>
+            </template>
+          </v-hover>
+        </v-col>  
     </v-container>
   </div>
 </template>
@@ -692,6 +821,8 @@ export default {
     show8: false,
     show9: false,
     show10: false,
+    show11: false,
+    show12: false,
   }),
   name: "portfolio",
   components: {},
