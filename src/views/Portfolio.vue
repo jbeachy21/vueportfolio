@@ -602,9 +602,9 @@
             </template>
           </v-hover>
         </v-col>
-      </v-row>
+      
 <!-- 10 -->
-<v-row>
+
         <v-col>
           <v-hover>
             <template v-slot="{ hover }">
@@ -668,7 +668,7 @@
             </template>
           </v-hover>
         </v-col>
-</v-row>  
+      </v-row>
 
 
 
