@@ -1,7 +1,7 @@
 <template>
 
    
-   <Slide :crossIcon="false" width=200>
+   <Slide :crossIcon="false" width=200 :closeOnNavigation="true">
   
      
 
@@ -28,12 +28,13 @@
 
 <style lang="scss">
   /* Basic styles */
-  .bm-burger-bars {
-    background-color: yellow;
-  }
+  
 
   div.bm-menu {
     background-color: #195190FF;
+  }
+  .bm-burger-bars {
+    background-color: yellow !important;
   }
 
   .v-btn--active.no-active::before {                                                                             
