@@ -539,7 +539,7 @@
 
     <h2 class="text-center" style="color:#fff;">Data Projects</h2>
 
-    <v-container z-index: 999; style="margin-bottom: 25px;">
+    <v-container z-index: 999;>
       <v-row>
         <!-- 9 -->
         <v-col>
@@ -676,7 +676,7 @@
 
     
         <!-- 11 -->
-      <v-row>
+      <v-row style="margin-bottom:100px;">
         <v-col>
           <v-hover>
             <template v-slot="{ hover }">
