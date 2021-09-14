@@ -30,7 +30,7 @@
         right: 0;
         margin: auto
         
-        height: 900px;
+        height: 2200px;
         
         
         
