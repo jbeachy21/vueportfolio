@@ -53,8 +53,8 @@
     </v-card-actions>
     <v-row justify="space-around">
       
-    <img src="../assets/originalcert.png" alt="Certificate image" >
-    <img src="../assets/dataviscert.png" alt="Certificate image">
+    <img src="../assets/originalcert.png" alt="Certificate image" style="height:160px;width:160px;">
+    <img src="../assets/dataviscert.png" alt="Certificate image" style="height:160px;width:160px;">
      
     </v-row>
   </v-card>
