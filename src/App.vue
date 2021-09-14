@@ -24,16 +24,16 @@
         hoverMode="grab"
         :clickEffect="true"
         clickMode="push" 
-        style=" margin-top:50px; 
-        margin-bottom:50px; 
+        style=" 
         position: absolute; 
+        left: 0;
+        right: 0;
+        margin: auto
         
-        width: 85em;
-        height: 100em;
-        margin: auto;
-        <!-- border: 3px solid #73AD21; -->
-        left: 0; 
-        right: 0; 
+        height: 900px;
+        
+        
+        
        
         z-index: -1;"> 
         </vue-particles>
