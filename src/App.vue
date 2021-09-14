@@ -19,7 +19,7 @@
         :lineLinked="true"
         :lineOpacity="1.0"
         :linesDistance="150"
-        :moveSpeed="7"
+        :moveSpeed="5"
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
@@ -30,7 +30,7 @@
         right: 0;
         margin: auto
         
-        height: 2200px;
+        max-height: 2200px;
         
         
         
