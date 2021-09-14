@@ -1,9 +1,5 @@
 <template>
 
-  
-  
-
-
   <div id="home">
 
      
@@ -35,22 +31,19 @@
 
     <v-card-text >
     <p class="body-1">  
-    My name is Jasper Beachy, an aspiring Web Developer with a passion 
-    for solving real world problems using science and technology, currently seeking a 
-    full time opportunity.  I have been coding since college where I learned languages such as Python, 
-    C, C++, Java, and Matlab, while earning a B.A in Chemistry.  Last year, I graduated from the 
-    University of Minnesota Full Stack Web Development bootcamp.
-    There, I mastered relevant Web Development technologies and methodologies such as Git, JavaScript, Firebase,
-    HTML, CSS, Agile workflow, Heroku, jQuery, Node, npm, React, RESTful APIs, MySQL, and MongoDb making numerous 
-    single page applications and a few larger projects along the way.  After my bootcamp I was a part time intern 
-    at a cryptocurrency startup called DeFiner, where I learned new tools such as SCSS, TypeScript and Angular. 
-    Since then, I have gone on to learn more on my own. For example, my portfolio was made from scratch using Vue 
-    and I have advanced my mastery of Python with a course from Udemy.  Currently, I am enrolled in a Data Science 
-    bootcamp at the University of Minnesota and I am eager to learn, and gain as much experience in development as 
-    I possibly can.      
-    </p>
+    I have had a passion for technology for as long as I can remember. 
+    The very first time that I coded something from start to finish was in middle
+    school when I was about 13. I was enrolled in a web design course and I had just 
+    finished our end of semester project. To this day I don’t remember many times that 
+    I was on the same plane of happiness. It was a magical feeling. These days however, 
+    I code more challenging web applications than one that details my favorite things about 
+    the last trip to Sweden my parents took me and my brother on. Although it still brings me 
+    a profound amount of joy. Whether I am making my first API program to shows gifs of all my 
+    favorite movies 25 at a time, parsing data to display UFO and bigfoot sightings on a leaflet 
+    map, or investigating a new Raspberry Pi project idea, it is always good old-fashioned fun.</p>
       <br>
-    
+    <p>Currently, I am focused on diving deeper into the software development world and seeing where the rabbit hole will take me. 
+    If you have any interesting projects you would like to reach out to me about, do not hesitate to do so.</p>
       </v-card-text>   
     
 
