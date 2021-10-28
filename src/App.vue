@@ -1,7 +1,7 @@
 <template>
   <v-app class="grey-lighten">
     
-<!-- APOD link https://api.nasa.gov/planetary/apod?api_key=g7YDz5BJenZLjZ8Xph5SvJlfUfiKKTRhQo0LZefq -->
+ 
 
 
 
